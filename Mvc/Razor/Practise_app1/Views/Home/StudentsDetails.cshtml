@@ -85,6 +85,17 @@
                         }
                             </ul>
             </td>
+               <tr>
+                <td>Subject</td>
+                <td>
+                    <ul>
+                        @foreach (var subject in ViewBag.Subject)
+                        {
+                            <li>@subject</li>
+                        }
+                    </ul>
+                </td>
+            </tr>
         </table>
     </div>
 </body>

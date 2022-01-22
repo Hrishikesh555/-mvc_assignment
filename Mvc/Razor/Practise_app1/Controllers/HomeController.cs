@@ -77,6 +77,7 @@ namespace Practise_app1.Controllers
             ViewBag.StudentName = "Hrishi";
             ViewBag.Mark = 85;
             ViewBag.NoofSem = 6;
+            ViewBag.Subject =new List<string>(){ "Scienc","English","Maths"};
             return View();
         }
 
