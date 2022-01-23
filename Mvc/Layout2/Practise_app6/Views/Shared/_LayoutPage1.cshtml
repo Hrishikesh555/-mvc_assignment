@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.6.0.js"></script>
+    <script src="~/Scripts/umd/popper.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <nav class="navbar-expand-md bg-primary">
+        <a class="navbar-brand" href="/Home/Index" style="background-color:black">Home</a>
+
+        <a class="navbar-brand" href="/Home/About" style="background-color:black">About</a>
+        <a class="navbar-brand" href="/Home/Contact" style="background-color:black">Contact</a>
+    </nav>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>
