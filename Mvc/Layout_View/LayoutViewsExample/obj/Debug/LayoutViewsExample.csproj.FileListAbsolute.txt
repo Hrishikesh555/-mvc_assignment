@@ -1,0 +1,276 @@
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\LayoutViewsExample.dll.config
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\LayoutViewsExample.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\LayoutViewsExample.pdb
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\csc.exe
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\csc.exe.config
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\csc.rsp
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\csi.exe
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\csi.exe.config
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\csi.rsp
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\Microsoft.Managed.Core.targets
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\System.AppContext.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\System.Collections.Immutable.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\System.Console.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\System.Diagnostics.StackTrace.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\System.IO.Compression.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\System.IO.FileSystem.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\System.IO.FileSystem.Primitives.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\System.IO.Pipes.AccessControl.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\System.IO.Pipes.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\System.Reflection.Metadata.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\System.Security.AccessControl.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\System.Security.Claims.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\System.Security.Cryptography.Encoding.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\System.Security.Cryptography.Primitives.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\System.Security.Principal.Windows.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\System.Text.Encoding.CodePages.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\System.ValueTuple.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\System.Xml.ReaderWriter.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\System.Xml.XmlDocument.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\System.Xml.XPath.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\System.Xml.XPath.XDocument.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\vbc.exe
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\vbc.exe.config
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\vbc.rsp
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\VBCSCompiler.exe
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\roslyn\VBCSCompiler.exe.config
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\Microsoft.Web.Infrastructure.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\System.Web.Helpers.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\System.Web.Mvc.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\System.Web.Razor.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\System.Web.Webpages.Deployment.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\System.Web.Webpages.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\System.Web.Webpages.Razor.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\System.Web.Razor.xml
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\System.Web.Webpages.xml
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\System.Web.Webpages.Deployment.xml
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\System.Web.Webpages.Razor.xml
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\System.Web.Helpers.xml
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\System.Web.Mvc.xml
+c:\mvc\LayoutViewsExample\LayoutViewsExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\mvc\LayoutViewsExample\LayoutViewsExample\obj\Debug\LayoutViewsExample.csprojAssemblyReference.cache
+c:\mvc\LayoutViewsExample\LayoutViewsExample\obj\Debug\LayoutViewsExample.csproj.CoreCompileInputs.cache
+c:\mvc\LayoutViewsExample\LayoutViewsExample\obj\Debug\LayoutViewsExample.csproj.CopyComplete
+c:\mvc\LayoutViewsExample\LayoutViewsExample\obj\Debug\LayoutViewsExample.dll
+c:\mvc\LayoutViewsExample\LayoutViewsExample\obj\Debug\LayoutViewsExample.pdb
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\LayoutViewsExample.dll.config
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\LayoutViewsExample.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\LayoutViewsExample.pdb
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\csc.exe
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\csc.exe.config
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\csc.rsp
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\csi.exe
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\csi.exe.config
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\csi.rsp
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\Microsoft.Managed.Core.targets
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\System.AppContext.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\System.Collections.Immutable.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\System.Console.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\System.IO.Compression.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\System.IO.FileSystem.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\System.IO.Pipes.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\System.Reflection.Metadata.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\System.Security.AccessControl.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\System.Security.Claims.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\System.Security.Principal.Windows.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\System.ValueTuple.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\System.Xml.XmlDocument.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\System.Xml.XPath.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\vbc.exe
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\vbc.exe.config
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\vbc.rsp
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\VBCSCompiler.exe
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\roslyn\VBCSCompiler.exe.config
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\Microsoft.Web.Infrastructure.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\System.Web.Helpers.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\System.Web.Mvc.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\System.Web.Razor.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\System.Web.Webpages.Deployment.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\System.Web.Webpages.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\System.Web.Webpages.Razor.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\System.Web.Razor.xml
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\System.Web.Webpages.xml
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\System.Web.Webpages.Deployment.xml
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\System.Web.Webpages.Razor.xml
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\System.Web.Helpers.xml
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\System.Web.Mvc.xml
+C:\mvc\09.01. Layout Views\LayoutViewsExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\mvc\09.01. Layout Views\LayoutViewsExample\obj\Debug\LayoutViewsExample.csprojAssemblyReference.cache
+C:\mvc\09.01. Layout Views\LayoutViewsExample\obj\Debug\LayoutViewsExample.csproj.CoreCompileInputs.cache
+C:\mvc\09.01. Layout Views\LayoutViewsExample\obj\Debug\LayoutViewsExample.csproj.CopyComplete
+C:\mvc\09.01. Layout Views\LayoutViewsExample\obj\Debug\LayoutViewsExample.dll
+C:\mvc\09.01. Layout Views\LayoutViewsExample\obj\Debug\LayoutViewsExample.pdb
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\LayoutViewsExample.dll.config
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\LayoutViewsExample.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\LayoutViewsExample.pdb
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\csc.exe
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\csc.exe.config
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\csc.rsp
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\csi.exe
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\csi.exe.config
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\csi.rsp
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.AppContext.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.Console.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.IO.Compression.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.Security.Claims.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.ValueTuple.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\vbc.exe
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\vbc.exe.config
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\vbc.rsp
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\VBCSCompiler.exe
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\System.Web.Helpers.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\System.Web.Mvc.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\System.Web.Razor.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\System.Web.Webpages.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\System.Web.Webpages.Razor.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\System.Web.Razor.xml
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\System.Web.Webpages.xml
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\System.Web.Webpages.Razor.xml
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\System.Web.Helpers.xml
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\System.Web.Mvc.xml
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\obj\Debug\LayoutViewsExample.csprojAssemblyReference.cache
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\obj\Debug\LayoutViewsExample.csproj.CoreCompileInputs.cache
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\obj\Debug\LayoutViewsExample.csproj.CopyComplete
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\obj\Debug\LayoutViewsExample.dll
+C:\Users\Harsha\Downloads\mvc\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\obj\Debug\LayoutViewsExample.pdb
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\LayoutViewsExample.dll.config
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\LayoutViewsExample.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\LayoutViewsExample.pdb
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\csc.exe
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\csc.exe.config
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\csc.rsp
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\csi.exe
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\csi.exe.config
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\csi.rsp
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.AppContext.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.Console.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.IO.Compression.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.Security.Claims.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.ValueTuple.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\vbc.exe
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\vbc.exe.config
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\vbc.rsp
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\VBCSCompiler.exe
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\System.Web.Helpers.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\System.Web.Mvc.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\System.Web.Razor.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\System.Web.Webpages.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\System.Web.Webpages.Razor.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\System.Web.Razor.xml
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\System.Web.Webpages.xml
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\System.Web.Webpages.Razor.xml
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\System.Web.Helpers.xml
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\System.Web.Mvc.xml
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\obj\Debug\LayoutViewsExample.csproj.AssemblyReference.cache
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\obj\Debug\LayoutViewsExample.csproj.CoreCompileInputs.cache
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\obj\Debug\LayoutViewsExample.csproj.CopyComplete
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\obj\Debug\LayoutViewsExample.dll
+C:\Users\Hrishikesh\Downloads\09.02.01.+Creating+SideBar+in+Layout+View\09.02.01. Creating SideBar in Layout View\LayoutViewsExample\obj\Debug\LayoutViewsExample.pdb

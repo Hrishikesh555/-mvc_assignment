@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Contact";
+    Layout = "~/Views/Shared/_LayoutPage2.cshtml";
+}
+
+<h2>Contact page content here</h2>
+
+@{
+    ViewBag.Message = "Contact our customer care representative!";
+}
+@section Options
+{
+    <a href="#" class="list-group-item text-white" style="background-color:transparent">Contact</a>
+}
+
+@{
+    ViewBag.Title = "Contacts";
+    ViewBag.items = new List<string>() { "18-00-00", "18-99-99", "Help@gmail.com" };
+    Html.RenderPartial("PartialView");
+}
+
+

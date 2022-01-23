@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "About";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<h2>About page content here</h2>
+
+@{
+    ViewBag.Message = "Leading company in the world";
+}
+
+@{ 
+    ViewBag.Title = "Products";
+    ViewBag.items = new List<string>() {"Mobile","Tablet","Laptop" };
+    Html.RenderPartial("PartialView");
+}
+
