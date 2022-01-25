@@ -1,0 +1,29 @@
+﻿@model List<Practise_app7.Models.Product>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Products</h2>
+<a href="@Url.{"Create","Products"}">Create Product</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ProductId</th>
+            <th>ProductName</th>
+            <th>Rate</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ProductId</td>
+                <td><a href="/Products/Details/@item.ProductId">@item.ProductName</a></td>
+                <td>@item.Rate</td>
+            </tr>
+
+        }
+
+    </tbody>
+</table>
+
