@@ -1,0 +1,46 @@
+﻿@model List<EntityDBFIRST.Models.Product>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<h2>Index</h2>
+<form class="form-inline" action="/Products/Index">
+    <label for="search">Search</label>
+    <input type="search" class="form-control" id="search" name="search" placeholder="search" value="@ViewBag.search" />
+    <button type="submit" class="btn btn-primary">Go</button>
+    <div> <a href="/products/Create/">Create</a></div>
+</form>
+<table class="table">
+    <tr>
+        <th>Products ID</th>
+        <th>Product name</th>
+        <th>Product Price</th>
+        <th>DateofPurchase</th>
+        <th>AvailabilityStatus</th>
+        <th>CategoryID</th>
+        <th>BrandID</th>
+        <th>Active</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ProductID</td>
+            <td>@item.ProductName</td>
+            <td>@item.Price.Value.ToString("C")</td>
+            <td>@item.DateofPurchase.Value.ToString("d/M/yyyy")</td>
+            <td>@item.AvailabilityStatus</td>
+            <td>@item.CategoryID</td>
+            <td>@item.BrandID</td>
+            <td>@item.Active</td>
+            <td>
+                <a href="/products/Details/@item.ProductID">Details</a>
+                <a href="/products/Edit/@item.ProductID">Edit</a>
+                <a href="/products/Delete/@item.ProductID">Delete</a>
+            </td>
+        </tr>
+    }
+
+
+</table>
+
