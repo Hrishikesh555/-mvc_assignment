@@ -1,0 +1,23 @@
+﻿
+@model List<EntityDBFIRST.Models.Category>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<h2>Categories</h2>
+<table class="table">
+    <tr>
+        <th>CategoryID</th>
+        <th>Category name</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.CategoryID</td>
+            <td>@item.CategoryName</td>
+        </tr>
+    }
+
+</table>
+
