@@ -1,0 +1,157 @@
+﻿@model List<EmployeProj.Models.Department>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+
+<link href="~/Content/font-awesome.css" rel="stylesheet" />
+
+<h2>Index</h2>
+<form>
+    <div> <a class="btn btn-success" href="/Department/Create">Create</a></div>
+</form>
+<table class="table table-striped table-dark mt-3">
+
+    <tr>
+        <th style="width:10%">
+            @if (ViewBag.IconClass == "fa-sort-desc")
+            {
+                <a href="/department/index?SortColumn=DepartmentId&IconClass=fa-sort-asc&Page=@ViewBag.Page">Department Id</a>
+                if (ViewBag.SortColumn == "DepartmentId")
+                {
+                    <i class="fa @ViewBag.IconClass"></i>
+                }
+            }
+            else
+            {
+                <a href="/department/index?SortColumn=DepartmentId&IconClass=fa-sort-desc&Page=@ViewBag.Page">Department Id</a>
+                if (ViewBag.SortColumn == "DepartmentId")
+                {
+                    <i class="fa @ViewBag.IconClass"></i>
+                }
+            }
+
+        </th>
+        <th>Department Name</th>
+        <th>Department Location</th>
+        <th>Menu</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr id="row_@item.DepartmentId">
+            <td>@item.DepartmentId</td>
+            <td>@item.DepartmentName</td>
+            <td>@item.DepartmentLoc</td>
+            <td>
+
+                <a class="btn btn-info" href="/Department/Details/@item.DepartmentId">Details</a>
+                <a class="btn btn-primary " href="/Department/Edit/@item.DepartmentId">Edit</a>
+                <a class="btn btn-danger" href="#" onclick="ConfirmDelete(@item.DepartmentId)">Delete</a>
+
+            </td>
+        </tr>
+
+    }
+
+</table>
+
+
+        @{
+            int PrevPageNo = ViewBag.Page - 1;
+            if (PrevPageNo <= 0)
+            {
+                PrevPageNo = 1;
+            }
+
+            int NextPageNo = ViewBag.Page + 1;
+            if (NextPageNo > ViewBag.NoOfPages)
+            {
+                NextPageNo = ViewBag.NoOfPages;
+            }
+        }
+        <ul class="pagination justify-content-center">
+            <li class="page-item">
+                <a class="page-link" href="/Department/index?SortColumn=@ViewBag.SortColumn&IconClass=@ViewBag.IconClass&Page=@PrevPageNo">Prev</a>
+            </li>
+            @for (int i = 0; i < ViewBag.NoOfPages; i++)
+            {
+                if ((i + 1) == ViewBag.Page)
+                {
+                    <li class="page-item active">
+                        <a class="page-link" href="/Department/index?SortColumn=@ViewBag.SortColumn&IconClass=@ViewBag.IconClass&Page=@(i + 1)">@( i + 1)</a>
+                    </li>
+                }
+                else
+                {
+                    <li class="page-item">
+                        <a class="page-link" href="/Department/index?SortColumn=@ViewBag.SortColumn&IconClass=@ViewBag.IconClass&Page=@(i + 1)">@( i + 1)</a>
+                    </li>
+                }
+            }
+            <li class="page-item">
+                <a class="page-link" href="/Department/index?SortColumn=@ViewBag.SortColumn&IconClass=@ViewBag.IconClass&Page=@NextPageNo">Next</a>
+            </li>
+        </ul>
+
+
+
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Delete Department</h3>
+                <a href="#" class="close" data-dismiss="modal">&times;</a>
+
+            </div>
+            <div class="modal-body">
+                <h4>Are you sure ? You want to delete this</h4>
+
+
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn btn-default" data-dismiss="modal">Cancel</a>
+                <a href="#" class="btn btn-success" onclick="Delete()">Confirm</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<input type="hidden" id="hiddenDepartmentId" />
+
+<script>
+
+    var ConfirmDelete = function (DepartmentId) {
+
+        $("#hiddenDepartmentId").val(DepartmentId);
+        $("#myModal").modal('show');
+
+    }
+
+    var Delete = function () {
+
+        $("#loaderDiv").show();
+
+        var DepartmentId = $("#hiddenDepartmentId").val();
+
+        $.ajax({
+
+            type: "POST",
+            url: "/Department/Delete",
+            data: { ID: DepartmentId },
+            success: function (result) {
+                $("#loaderDiv").hide();
+                $("#myModal").modal("hide");
+                $("#row_" + DepartmentId).remove();
+
+            }
+
+        })
+
+    }
+</script>

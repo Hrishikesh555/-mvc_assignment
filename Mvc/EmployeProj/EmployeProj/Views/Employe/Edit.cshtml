@@ -1,0 +1,80 @@
+﻿@model EmployeProj.Models.Empploye
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<h2>Edit</h2>
+<form action="/Employe/Edit/@Model.EmployeId " method="post" enctype="multipart/form-data">
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="EmployeName">EmployeName</label>
+            <input type="hidden" name="EmployeId" value="@Model.EmployeId" />
+            <input type="text" class="form-control" id="EmployeName" name="EmployeName" placeholder="EmployeName" value="@Model.EmployeName" />
+        </div>
+        <div class="form-group col-md-6">
+            <label for="Designation">Designation</label>
+            <input type="text" class="form-control" id="Designation" name="Designation" placeholder="Designation" value="@Model.Designation" />
+        </div>
+    </div>
+    <div class="form-row">
+
+        <div class="form-group col-md-6">
+            <label for="DateOfJoing">DateOfJoing</label>
+            <input type="date" class="form-control" id="DateOfJoing" name="DateOfJoing" value="@Model.DateOfJoing.Value.ToString("yyyy-MM-dd")" />
+        </div>
+        <div class="form-group col-md-6">
+            <label for="Adress">City</label>
+            <input type="text" class="form-control" id="City" name="City" placeholder="City"
+                   value="@Model.City" />
+        </div>
+
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="Contact">Contact</label>
+            <input type="text" class="form-control" id="Contact" name="Contact" placeholder="Contact" value="@Model.Contact" />
+        </div>
+        <div class="form-group col-md-6">
+            <label class="form-label">Deparment Name</label>
+            <select class="form-control" name="DepartmentId">
+
+                <option value="@Model.DepartmentId">@Model.Department.DepartmentName</option>
+                @foreach (var Dept in ViewBag.Department)
+                {
+                    <option value="@Dept.DepartmentId">@Dept.DepartmentName</option>
+                }
+
+            </select>
+            @Html.ValidationMessageFor(temp => temp.DepartmentId)
+        </div>
+
+        <div class="form-group col-md-6">
+            @Html.LabelFor(temp => temp.Status, new { @class = "form-check-label" })
+            @Html.DropDownListFor(temp => temp.Status, new List<SelectListItem>(){
+            new SelectListItem() { Text = "Permanant", Value = "Permanant" },
+            new SelectListItem() { Text = "Traine", Value = "Traine" }
+            }, "Please Select", new { @class = "form-control", value = "@Model.Status" })
+        </div>
+
+    </div>
+    </div>
+     <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="Profile">Photo</label>
+                <input type="file" class="form-control" id="Profile" name="Profile" placeholder="Profile" value="@Model.Profile" />
+                <img src="data:image;base64,@Model.Profile" width="80px" />
+
+            </div>
+        </div> 
+
+
+
+    <button type="submit" class="btn btn-success">Save</button>
+    <a class="btn btn-danger" href="/Employe/index">Cancel</a>
+
+
+
+
+</form>
+
