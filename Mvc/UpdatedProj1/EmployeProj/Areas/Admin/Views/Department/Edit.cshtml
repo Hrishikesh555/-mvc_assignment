@@ -1,0 +1,23 @@
+﻿@model EmployeProj.Models.Department
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayoutPage1.cshtml"; ;
+}
+
+<h2>Edit</h2>
+
+<form action="/Admin/Department/Edit/@Model.DepartmentId" method="post">
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="DepartmentName">DepartmentName</label>
+            <input type="hidden" name="DepartmentId" value="@Model.DepartmentId" />
+            <input type="text" class="form-control" id="DepartmentName" name="DepartmentName" placeholder="DepartmentName" value="@Model.DepartmentName" />
+        </div>
+        <div class="form-group col-md-6">
+            <label for="DepartmentLoc">Department Location</label>
+            <input type="text" class="form-control" id="DepartmentLoc" name="DepartmentLoc" placeholder="DepartmentLoc" value="@Model.DepartmentLoc" />
+        </div>
+    </div>
+    <button type="submit" class="btn btn-success">Save</button>
+    <a class="btn btn-danger" href="/Admin/Department/index">Cancel</a>
+</form>

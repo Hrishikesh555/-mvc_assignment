@@ -1,0 +1,25 @@
+﻿@model EmployeProj.Models.Department
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayoutPage1.cshtml";
+}
+
+<h2>Create</h2>
+
+<form action="/Admin/Department/Create"  method="post">
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            @Html.LabelFor(temp => temp.DepartmentName)
+            @Html.TextBoxFor(temp => temp.DepartmentName, new { Placeholder = "DepartmentName", @class = "form-control" })
+            @Html.ValidationMessageFor(temp => temp.DepartmentName)
+        </div>
+        <div class="form-group col-md-6">
+            @Html.LabelFor(temp => temp.DepartmentLoc)
+            @Html.TextBoxFor(temp => temp.DepartmentLoc, new { Placeholder = "DepartmentLoc", @class = "form-control" })
+            @Html.ValidationMessageFor(temp => temp.DepartmentLoc)
+        </div>
+        <button type="submit"  class="btn btn-success">Submit</button>
+        <a class="btn btn-danger" href="/Admin/Department/index">Cancel</a>
+    </div>
+</form>

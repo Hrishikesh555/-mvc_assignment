@@ -1,0 +1,237 @@
+﻿@model List<EmployeProj.Models.Empploye>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayoutPage1.cshtml";
+}
+
+<h2>Index</h2>
+<form action="/Admin/Employe/Index">
+    <div class="form-row">
+        <div class="form-group col-md-3">
+            <input type="text" name="EmployeName" placeholder="EmployeName" class="form-control" value="@ViewBag.EmployeName" />
+        </div>
+        <div class="form-group col-md-3">
+            <input type="text" name="City" placeholder="City" class="form-control" value="@ViewBag.City" />
+
+        </div>
+        <div class="form-group col-md-1">
+            <button type="submit" class="btn btn-dark" style="margin-left:15px">Search</button>
+        </div>
+    </div>
+</form>
+
+
+<div> <a class="btn btn-success" href="/Admin/Employe/Create">Create</a></div>
+
+<table class="table table-striped table-dark mt-3">
+    <tr>
+        <th>Profile </th>
+        <th>
+            @if (ViewBag.IconClass == "fa-sort-desc")
+            {
+                <a href="/Admin/Employe/index?SortColumn=EmployeId&IconClass=fa-sort-asc&Page=@ViewBag.Page">EmployeId</a>
+                if (ViewBag.SortColumn == "EmployeId")
+                {
+                    <i class="fa @ViewBag.IconClass"></i>
+                }
+            }
+            else
+            {
+                <a href="/Admin/Employe/index?SortColumn=EmployeId&IconClass=fa-sort-desc&Page=@ViewBag.Page">Employe Id</a>
+                if (ViewBag.SortColumn == "EmployeId")
+                {
+                    <i class="fa @ViewBag.IconClass"></i>
+                }
+            }
+        </th>
+        <th>
+            @if (ViewBag.IconClass == "fa-sort-desc")
+            {
+                <a href="/Admin/Employe/index?SortColumn=EmployeName&IconClass=fa-sort-asc&Page=@ViewBag.Page">Employe Name</a>
+                if (ViewBag.SortColumn == "EmployeName")
+                {
+                    <i class="fa @ViewBag.IconClass"></i>
+                }
+            }
+            else
+            {
+                <a href="/Admin/Employe/index?SortColumn=EmployeName&IconClass=fa-sort-desc&Page=@ViewBag.Page">Employe Name</a>
+                if (ViewBag.SortColumn == "EmployeName")
+                {
+                    <i class="fa @ViewBag.IconClass"></i>
+                }
+            }
+        </th>
+        <th>
+            @if (ViewBag.IconClass == "fa-sort-desc")
+            {
+                <a href="/Admin/Employe/index?SortColumn=Designation&IconClass=fa-sort-asc&Page=@ViewBag.Page">Designation</a>
+                if (ViewBag.SortColumn == "Designation")
+                {
+                    <i class="fa @ViewBag.IconClass"></i>
+                }
+            }
+            else
+            {
+                <a href="/Admin/Employe/index?SortColumn=Designation&IconClass=fa-sort-desc&Page=@ViewBag.Page">Designation</a>
+                if (ViewBag.SortColumn == "Designation")
+                {
+                    <i class="fa @ViewBag.IconClass"></i>
+                }
+            }
+        </th>
+        <th>
+            @if (ViewBag.IconClass == "fa-sort-desc")
+            {
+                <a href="/Admin/Employe/index?SortColumn=City&IconClass=fa-sort-asc&Page=@ViewBag.Page">City</a>
+                if (ViewBag.SortColumn == "City")
+                {
+                    <i class="fa @ViewBag.IconClass"></i>
+                }
+            }
+            else
+            {
+                <a href="/Admin/Employe/index?SortColumn=City&IconClass=fa-sort-desc&Page=@ViewBag.Page">City</a>
+                if (ViewBag.SortColumn == "City")
+                {
+                    <i class="fa @ViewBag.IconClass"></i>
+                }
+            }
+        </th>
+        <th>Department</th>
+        <th>Status</th>
+        <th>Menu</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr id="row_@item.EmployeId">
+            <td><img src="data:image;base64,@item.Profile" style="border-radius:50%;width:100px;height:100px" /></td>
+            <td>
+
+                @item.EmployeId
+            </td>
+            <td>@item.EmployeName</td>
+            <td>
+                @if (@item.Designation != null)
+                {
+                    <span>@item.Designation</span>
+                }
+            </td>
+            <td>@item.City</td>
+            <td>
+                @if (@item.DepartmentId.HasValue)
+                {
+                    <span>@item.Department.DepartmentName</span>
+                }
+            </td>
+            <td>
+                @item.Status
+            </td>
+            <td>
+                <a class="btn btn-info" href="/Admin/Employe/Details/@item.EmployeId">Details</a>
+                <a class="btn btn-primary " href="/Admin/Employe/Edit/@item.EmployeId">Edit</a>
+                <a class="btn btn-danger" href="#" onclick="ConfirmDelete(@item.EmployeId)">Delete</a>
+            </td>
+        </tr>
+    }
+
+
+
+
+
+
+</table>
+@{
+    int PrevPageNo = ViewBag.Page - 1;
+    if (PrevPageNo <= 0)
+    {
+        PrevPageNo = 1;
+    }
+
+    int NextPageNo = ViewBag.Page + 1;
+    if (NextPageNo > ViewBag.NoOfPages)
+    {
+        NextPageNo = ViewBag.NoOfPages;
+    }
+}
+<ul class="pagination justify-content-center">
+    <li class="page-item">
+        <a class="page-link" href="/Admin/Employe/index?SortColumn=@ViewBag.SortColumn&IconClass=@ViewBag.IconClass&Page=@PrevPageNo">Prev</a>
+    </li>
+    @for (int i = 0; i < ViewBag.NoOfPages; i++)
+    {
+        if ((i + 1) == ViewBag.Page)
+        {
+            <li class="page-item active">
+                <a class="page-link" href="/Admin/Employe/index?SortColumn=@ViewBag.SortColumn&IconClass=@ViewBag.IconClass&Page=@(i + 1)">@( i + 1)</a>
+            </li>
+        }
+        else
+        {
+            <li class="page-item">
+                <a class="page-link" href="/Admin/Employe/index?SortColumn=@ViewBag.SortColumn&IconClass=@ViewBag.IconClass&Page=@(i + 1)">@( i + 1)</a>
+            </li>
+        }
+    }
+    <li class="page-item">
+        <a class="page-link" href="/Admin/Employe/index?SortColumn=@ViewBag.SortColumn&IconClass=@ViewBag.IconClass&Page=@NextPageNo">Next</a>
+    </li>
+</ul>
+
+
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Delete Employe</h3>
+                <a href="#" class="close" data-dismiss="modal">&times;</a>
+
+            </div>
+            <div class="modal-body">
+                <h4>Are you sure ? You want to delete this</h4>
+
+
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn btn-default" data-dismiss="modal">Cancel</a>
+                <a href="#" class="btn btn-success" onclick="Delete()">Confirm</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<input type="hidden" id="hiddenEmployeId" />
+
+<script>
+
+    var ConfirmDelete = function (EmployeId) {
+
+        $("#hiddenEmployeId").val(EmployeId);
+        $("#myModal").modal('show');
+
+    }
+
+    var Delete = function () {
+
+        $("#loaderDiv").show();
+
+        var EmployeId = $("#hiddenEmployeId").val();
+
+        $.ajax({
+
+            type: "POST",
+            url: "/Admin/Employe/Delete",
+            data: { ID: EmployeId },
+            success: function (result) {
+                $("#loaderDiv").hide();
+                $("#myModal").modal("hide");
+                $("#row_" + EmployeId).remove();
+
+            }
+
+        })
+
+    }
+</script>
