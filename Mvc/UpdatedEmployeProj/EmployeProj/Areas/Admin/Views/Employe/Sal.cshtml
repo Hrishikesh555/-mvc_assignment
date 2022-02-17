@@ -1,0 +1,48 @@
+﻿@model List<EmployeProj.Models.Salary>
+@{
+    ViewBag.Title = "Sal";
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayoutPage2.cshtml";
+}
+<div class="card" style="margin-left:7px;margin-top:50px">
+    <div class="card-body">
+
+
+
+
+        <h2 style="text-align:center">Report</h2>
+        <table class="table table-bordered" style="max-width:800px;margin-left:70px">
+            <thead>
+                <tr>
+                    <th>Employe Name</th>
+                    <th>Designation</th>
+                    <th>Salary</th>
+                    <th>Tax</th>
+                    <th>HRA</th>
+                    <th>DA</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Empploye.EmployeName</td>
+                        <td>@item.Empploye.Designation</td>
+                        <td>@item.Salarys</td>
+                        <td>@item.Tax</td>
+                        <td>@item.HRA</td>
+                        <td>@item.DA</td>
+                    </tr>
+                }
+
+            </tbody>
+
+        </table>
+
+        <div style="margin-left:70px">
+            <label><b>Number of Employes: @ViewBag.Employe</b></label><br />
+            <label><b>Cost to company: Rs.@Model.Sum(i => i.Salarys)/-</b></label>
+        </div>
+    </div>
+</div>
+<br />
+<div style="margin-left:80px"><a class="btn btn-primary" href="/Admin/Employe/Index">Back</a></div>
